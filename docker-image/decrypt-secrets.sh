@@ -2,7 +2,7 @@ set -ue
 echo "ENCRYPTED_SECRETS_PATH:" $ENCRYPTED_SECRETS_PATH
 echo "DECRYPTED_SECRETS_PATH:" $DECRYPTED_SECRETS_PATH
 
-if [ -n "$SOPS_YAML" ]; then
+if [[ ${SOPS_YAML-} ]]; then
   echo 'creating .sops.yaml from $SOPS_YAML'
   echo "$SOPS_YAML" > .sops.yml
 fi
