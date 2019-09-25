@@ -1,4 +1,5 @@
-from rayou/sops@sha256:49d6bd1f06ad1479509e4621e28c0d9f27382714337221877f6c5d8c8d4731d8
+from rayou/sops@sha256:ddef1a65e92dfe172db0cac5b486d549d44744d17eebb75cd6ae35ea9c1e4659
+# ^-- sops 3.4
 
 WORKDIR workdir
 
